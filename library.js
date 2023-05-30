@@ -44,13 +44,13 @@ function libraryformsubmit(e)
 console.log('you have submitted the library form');
 let name = document.getElementById('bookname').value;
 let author = document.getElementById('author').value;
-let friction = document.getElementById('friction');
+let fiction = document.getElementById('fiction');
 let programming = document.getElementById('programming');
 let science = document.getElementById('science');
 let type;
-if(friction.checked)
+if(fiction.checked)
 {
-type =friction.value;
+type =fiction.value;
 }
 else if(programming.checked)
 {
@@ -70,4 +70,3 @@ display.clear();
 
 e.preventDefault();
 }
-
